@@ -1,5 +1,5 @@
-export { Table } from "./Table";
-export { FormInput } from "./FormInput";
-export { ConfirmModal } from "./ConfirmModal";
-export { Toast, showToast, toast } from "./Toast";
-export { LoadingSpinner } from "./LoadingSpinner";
+export { Table } from "./Table/Table";
+export { FormInput } from "./FormInput/FormInput";
+export { ConfirmModal } from "./ConfirmModal/ConfirmModal";
+export { Toast, showToast, toast } from "./Toast/Toast";
+export { LoadingSpinner } from "./LoadingSpinner/LoadingSpinner";

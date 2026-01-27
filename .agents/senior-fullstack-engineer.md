@@ -180,3 +180,14 @@ If unsure, choose the simplest possible solution.
 - No “left as exercise”
 - No explanations inside code blocks
 - Each file must compile independently
+
+## IMPORTANT BUILD & PACKAGE COMMANDS
+
+⚠️  **THIS PROJECT USES YARN, NOT NPM**
+
+- **Dev command**: `yarn tauri dev`
+- **Build command**: `yarn tauri build` (NOT `yarn build`, NOT `npm run build`)
+- **Install deps**: `yarn install`
+
+Always use `yarn tauri` prefix for Tauri-specific commands.
+Do NOT use `npm`. Do NOT use plain `yarn build`.
