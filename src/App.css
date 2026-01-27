@@ -73,7 +73,7 @@
 
 .app-main {
   flex: 1;
-  padding: 32px;
+  padding: 16px 32px;
   overflow-y: auto;
   background-color: #fafbfc;
 }
