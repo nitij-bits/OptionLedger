@@ -2347,6 +2347,7 @@ name = "optionledger"
 version = "0.1.0"
 dependencies = [
  "once_cell",
+ "open",
  "rusqlite",
  "serde",
  "serde_json",
