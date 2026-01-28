@@ -127,6 +127,12 @@ IMPORT RULES:
 - Avoid importing all components from a single index file (costly and unnecessary JS bundle bloat)
 - Each component must be imported individually where needed
 
+UI & ICON RULES:
+- Use only icons from lucide-react package when icons are needed
+- Import icons individually: `import { ChevronDown } from "lucide-react"`
+- No custom icon files, no other icon libraries
+- Keep icon usage minimal and purposeful
+
 REQUIREMENTS:
 - TypeScript frontend
 - Strong typing
