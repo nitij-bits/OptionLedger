@@ -4,7 +4,7 @@ import UsersPage from "./pages/UsersPage/UsersPage";
 import OptionsPage from "./pages/OptionsPage/OptionsPage";
 import OwnershipPage from "./pages/OwnershipPage/OwnershipPage";
 import MatrixPage from "./pages/MatrixPage/MatrixPage";
-import { Toast } from "./components";
+import { Toast } from "./components/Toast/Toast";
 import { AppProvider } from "./hooks";
 import "./styles/global.css";
 import "./App.css";
