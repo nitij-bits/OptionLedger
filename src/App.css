@@ -39,6 +39,13 @@
   padding: 20px 32px;
   background-color: var(--bg-color);
   border-bottom: 1px solid var(--border-color);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  gap: 12px;
   flex-wrap: wrap;
 }
 
@@ -69,6 +76,15 @@
   border-color: var(--primary-color);
   box-shadow: var(--shadow-md);
   font-weight: 600;
+}
+
+.nav-button.nav-settings {
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .app-main {
